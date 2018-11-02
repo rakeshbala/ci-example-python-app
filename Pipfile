@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = ">=1.15,<2.0.0"
+
+[dev-packages]
+nose = ">=1.3.7,<2.0.0"
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+doit = "python src/main.py"
+test = "nosetests"
