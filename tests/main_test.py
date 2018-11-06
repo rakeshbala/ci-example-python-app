@@ -1,6 +1,6 @@
 import unittest
 
-from mymatrix import MyMatrix
+from src.mymatrix import MyMatrix
 
 class TestMyMatrix(unittest.TestCase):
     def test_get(self):
